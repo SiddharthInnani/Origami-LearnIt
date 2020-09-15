@@ -1,0 +1,66 @@
+h1{
+    color:aqua;
+    margin:black;
+}
+
+body{
+    background-color: #2d16aaa8;
+}
+
+.header{
+    display:flex;
+    background-color:rgb(165, 226, 21);
+    justify-content: space-between;
+
+}
+
+.grid{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    
+}
+
+.item{
+
+    background-color: #d64d16a8;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #cf0aaea8;
+}
+p,h2{
+    text-align: center;
+    color: #b5dd2389;
+}
+
+
+a:link{
+    color: white;
+
+}
+
+a:visited{
+    color:yellow;
+}
+
+.menu{
+    margin-right:30px 
+}
+
+.menu a{
+margin-left: 40px;
+
+}
+
+.img:hover p{
+    opacity:1;
+}
+
+.img:hover img{
+    opacity: 0.5;
+}
+
+
